@@ -1,0 +1,12 @@
+<form action="{% url 'test' %}" method="post">{% csrf_token %}
+    <label for="activityType">Activity: </label>
+    <input id="activityType" type="text" name="activityType" value="{{ activityType }}">
+
+    <label for="duration">Duration: </label>
+    <input id="duration" type="text" name="duration" value="{{ duration }}">
+
+    <label for="note">Notes: </label>
+    <input id="note" type="text" name="note" value="{{ note }}">
+
+    <input type="submit" value="OK">
+</form>

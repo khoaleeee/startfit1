@@ -1,0 +1,18 @@
+<!-- pull data from the database and output it in this webpage -->
+
+<h1>Tracked Activities</h1>
+
+{% for item in all %}
+    <!-- <strong>{{ item.name }}</strong> <br/>
+    Email: {{ item.email }} <br/>
+    Age: {{ item.age }} <br/>
+    Class: {{ item.year }} <br/>
+    <hr> -->
+
+    Activity Type: {{ item.activityType }} <br/>
+    Duration: {{ item.duration }} <br/>
+    Notes: {{ item.notes }} <br/>
+    <hr>
+    
+{% endfor %}
+

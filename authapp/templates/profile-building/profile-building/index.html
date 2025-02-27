@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Profile Building</h1>    
+    <h2>Basic Information </h2>
+    <form id="pb-form">
+      <p>
+        <label for="username">What is your name?</label>
+        <input type="text" id="username" name="username">
+      </p>
+      <p>
+        <label for="birthday">What is your birthday?</label>
+        <input type="date" id="birthday" name="birthday">
+      </p>
+      <p>
+        <label for="gender">What is your gender?</label><br>
+        <input type="radio" id="gender" name="gender" value="gender">
+        <label for="gender">Male</label><br>
+        <input type="radio" id="gender" name="gender" value="gender">
+        <label for="gender">Female</label><br>
+        <input type="radio" id="gender" name="gender" value="gender">
+        <label for="gender">Others</label><br>
+      </p>
+      <p>
+        <label for="height">What is your height?</label>
+        <input type="text" id="height" name="height">
+      </p>
+      <p>
+        <label for="weight">What is your current weight?</label>
+        <input type="text" id="weight" name="weight">
+      </p>
+      <p>
+        <label for="weight">What is your goal weight (if applicable)?</label>
+        <input type="text" id="weight" name="weight">
+      </p>
+    </form>
+
+    <h2>Fitness Goals</h2>
+    <form id="pb-form">
+      <p>
+        <label for="goal">What is your primary fitness goals?</label><br>
+        <input type="checkbox" id="goal1" name="goal1">
+        <label for="goal1"> Improve endurance</label><br>
+        <input type="checkbox" id="goal2" name="goal2">
+        <label for="goal2"> Prepare for a fitness test</label><br>
+        <input type="checkbox" id="goal3" name="goal3">
+        <label for="goal3"> Maintain general fitness</label>
+      </p>
+      <p>
+        <label for="rotc">What is your primary fitness goals?</label><br>
+        <input type="checkbox" id="army" name="army">
+        <label for="rotc"> Army</label><br>
+        <input type="checkbox" id="air-force" name="air-force">
+        <label for="rotc"> Air Force</label><br>
+        <input type="checkbox" id="navy" name="navy">
+        <label for="rotc"> Navy</label>
+      </p>
+      <p>
+        <label for="sport">Are you an NCAA Athlete? If so, what sport?</label><br>
+        <input type="checkbox" id="football" name="football">
+        <label for="sport"> Football</label><br>
+        <input type="checkbox" id="soccer" name="soccer">
+        <label for="sport"> Soccer</label><br>
+        <input type="checkbox" id="basketball" name="basketball">
+        <label for="sport"> Basketball</label><br>
+        <input type="checkbox" id="swimming" name="swimming">
+        <label for="sport"> Swimming</label><br>
+        <input type="checkbox" id="wrestling" name="wrestling">
+        <label for="sport"> Wrestling</label><br>
+      </p>
+      <p>
+        <label for="goal">Do you have any past injuries or medical conditions that may affect your training?</label><br>
+        <input type="text" id="goal1" name="goal1">
+      </p>
+      <p>
+        <label for="goal">Are there any exercises or types of workouts you prefer to avoid?</label><br>
+        <input type="text" id="goal1" name="goal1">
+      </p>
+    </form>
+    <input type="button" onclick="alert('Submitted Successfully')" value="Submit">
+    <br>
+  </main>
